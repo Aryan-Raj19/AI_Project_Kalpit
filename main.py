@@ -1,16 +1,3 @@
-"""
-AmbedkarGPT-Intern-Task - main.py
-Simple command-line RAG Q&A using:
- - LangChain (new LCEL architecture)
- - ChromaDB for local vector store
- - HuggingFaceEmbeddings (sentence-transformers/all-MiniLM-L6-v2)
- - Ollama (Mistral 7B)
-
-Requirements:
- - pip install langchain langchain-community langchain-openai langchain-text-splitters chromadb sentence-transformers
- - Ollama installed + mistral model pulled
-"""
-
 import os
 from pathlib import Path
 
@@ -123,3 +110,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
