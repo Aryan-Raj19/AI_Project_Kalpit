@@ -1,4 +1,4 @@
-# AmbedkarGPT-Intern-Task
+# AI_Project_Kalpit
 
 A simple command-line Q&A system that ingests a short speech (speech.txt) and answers questions based only on that content.
 
